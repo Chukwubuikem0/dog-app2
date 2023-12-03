@@ -69,6 +69,7 @@ function DogApp () {
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
+                   <h1 className="caption">Where Woofs Meet Wags: Your Ultimate <span> Doggo Destination! </span></h1>
                 <div className="image">
                     {
                         uloma.slice(0, 48).map((element) => {

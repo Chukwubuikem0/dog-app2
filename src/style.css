@@ -6,7 +6,7 @@
 }
 
 .navbar {
-  background-color: gainsboro;
+  background-color:navajowhite;
   padding: 10px 50px 10px 50px;
   display: flex;
   flex-direction: row;
@@ -51,7 +51,7 @@
 
 .navbar-links a {
   text-decoration: none;
-  color: #222;
+  color: #161616;
 }
 
 .hero {
@@ -91,12 +91,14 @@
   /* flex-wrap: wrap; */
   height: 300px;
   width:100%;
+  border-radius: 10px;
 }
 
 .image {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 15px;
+  
 }
 
 .dog-logo {
@@ -130,16 +132,38 @@
   body {
     font-size: 16px;
   }
-  .image {
-    width: 100%;
+  .navbar {
+    display: none;
   }
+  
+  .image {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 7px;
+  }
+  .images {
+    height: 150px;
+    border-radius: 10px;
+  }
+
 }
 
-@media only screen and (min-width: 900px) {
+/* @media only screen and (min-width: 900px) {
   .navigation {
     display: flex;
   }
   .sidebar {
     position: fixed;
   }
+} */
+.caption {
+  text-align: center;
+  color: rgb(113, 70, 5);
+  font-size: 50px;
+}
+
+.caption span {
+  text-align: center;
+  display: block;
+  margin-bottom: 16px;
+  /* margin-left: px; */
 }
