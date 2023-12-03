@@ -1,0 +1,113 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  justify-content: center;
+}
+
+.navbar {
+  background-color: gainsboro;
+  padding: 10px 50px 10px 50px;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-around;
+  align-items: center;
+  /* gap: 300px; */
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.navbar-text {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  color: #222;
+  font: 600 "poppins", san-serif;
+  align-items: center;
+  justify-content: left;
+  align-self: stretch;
+}
+
+.navbar-links {
+  list-style: none;
+  margin: 0;
+  font: 600 "poppins", san-serif;
+  padding: 0;
+  align-items: center;
+  display: flex;
+  gap: 50px;
+}
+
+.navbar-links li {
+  margin: 0 10px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #222;
+}
+
+.hero {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 20px;
+  padding: 30px;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.hero-image {
+  border-radius: 20px 20px 20px 20px;
+  flex-shrink: 0;
+  /* background-image: url(Assets/images/heroimage.png); */
+  width: 50%;
+  height: 550px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.main {
+  /* display: flex;
+  flex-direction: column; */
+  gap: 32px;
+  /* background-color: blueviolet; */
+  justify-content: center;
+}
+
+.images {
+  /* flex-wrap: wrap; */
+  height: 300px;
+  width:100%;
+}
+
+.image {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 15px;
+}
+
+.dog-logo {
+  /* display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+  justify-content: left;
+  align-self: stretch; */
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+}
+
