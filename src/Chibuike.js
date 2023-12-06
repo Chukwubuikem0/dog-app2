@@ -72,7 +72,7 @@ function DogApp () {
                    <h1 className="caption">Where Woofs Meet Wags: Your Ultimate <span> Doggo Destination! </span></h1>
                 <div className="image">
                     {
-                        uloma.slice(0, 48).map((element) => {
+                        uloma.slice(0, 90).map((element) => {
                             return (
                                 <img className="images" src={element} />
                             )

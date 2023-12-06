@@ -83,13 +83,13 @@
   /* display: flex;
   flex-direction: column; */
   gap: 32px;
-  /* background-color: blueviolet; */
+  background-color: whitesmoke;
   justify-content: center;
 }
 
 .images {
   /* flex-wrap: wrap; */
-  height: 300px;
+  height: 280px;
   width:100%;
   border-radius: 10px;
 }
@@ -97,17 +97,11 @@
 .image {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  gap: 15px;
+  gap: 5px;
   
 }
 
 .dog-logo {
-  /* display: flex;
-  flex-direction: row;
-  gap: 32px;
-  align-items: center;
-  justify-content: left;
-  align-self: stretch; */
   display: flex;
   flex-direction: row;
   height: 80px;
